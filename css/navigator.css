@@ -27,8 +27,8 @@
 }
 .Topbar a:hover{
     background-color: white;
-    color: black;
-}
+    border-color: rgb(0, 255, 136);
+    color:black;}
 .Topbar a.active{
     background-color: white;
     color: black;
@@ -50,23 +50,27 @@ img{
 .nametag h1{
     font-family:tahoma;
     font-size: 100px;
-    color:rgb(39, 39, 39);
+    color:rgb(255, 255, 255);
     animation-name:h1animation;
     animation-duration: 4s;
+    animation-fill-mode: forwards;
 }
+
 @keyframes  h1animation{
-    from {color:rgb(39, 39, 39)}
-  to {color:white;}
+    from {opacity: 0%;}
+    to {opacity: 100%;}
 }
 .nametag h3{
     font-family:tahoma;
     font-size: 60px;
-    color:rgb(39, 39, 39);
+    color:rgb(161, 161, 161);
+    animation-name:h3animation;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
 }
-.nametag p{
-    font-family:tahoma;
-    font-size: 30px;
-    color:rgb(39, 39, 39);
+@keyframes  h3animation{
+    from {opacity: 0%;}
+  to {opacity: 100%;}
 }
 .shadow img{
     position: absolute;

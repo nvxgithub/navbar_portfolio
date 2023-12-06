@@ -1,0 +1,34 @@
+.contact{
+    margin-top: 30px;;
+}
+
+.contacts{
+    display: flex;
+    width:50%;
+    background-color: rgb(224, 224, 224);
+    border-radius: 20px;
+    margin: 10px;
+}
+.contacts:hover{
+   box-shadow: 5px 5px rgb(180, 180, 180);
+}
+
+.contacts:hover .des{
+   color:rgb(0, 164, 93);
+ }
+.logo{
+    flex:1;
+    margin:20px;
+}
+.des{
+    flex:5;
+    font-family:tahoma;
+    font-size: 26px;
+    color:rgb(209, 209, 209);
+}
+.logo img{
+    width: 80px;
+} 
+.Topbar img{
+    width:50px;
+}

@@ -10,5 +10,8 @@
     transition: width 1s;
 }
 .media:hover{
-    width:40px;
+    width:100px;
+}
+.social img{
+    width: 100px;
 }
