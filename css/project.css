@@ -1,0 +1,47 @@
+.projects{
+    width:100%;
+    font-family:tahoma;
+    border-radius: 10px;
+    height:300px;
+
+}
+
+.projects h2{
+    font-size: 60px;
+    color:rgb(0, 172, 77);
+}
+
+.main_project{
+    display: flex;
+    width: 100%;
+}
+.eachproject{
+    flex:1;
+    background-color: rgb(226, 226, 226);
+    margin: 10px;
+    height:600px;
+}
+.eachproject h4{
+    font-family:tahoma;
+    font-size: 40px;
+    margin: 20px;
+}
+.eachproject p{
+    font-family:tahoma;
+    font-size:30px;
+    color :black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.eachproject hr{
+    border: solid 2px rgb(0, 128, 73);
+    border-radius: 5px;
+    width:80%;
+}
+.eachproject a{
+    color: rgb(0, 118, 61);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 50px;
+
+}

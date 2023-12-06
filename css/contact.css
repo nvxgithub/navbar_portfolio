@@ -1,10 +1,19 @@
+
 .contact{
-    margin-top: 30px;;
+    margin-top: 30px;
+    width:100%;
+    font-family:tahoma;
+    border-radius: 10px;
+    height:300px;
+}
+.contact h2{
+    font-size: 60px;
+    color:rgb(0, 172, 77);
 }
 
 .contacts{
     display: flex;
-    width:50%;
+    width:100%;
     background-color: rgb(224, 224, 224);
     border-radius: 20px;
     margin: 10px;
@@ -31,4 +40,9 @@
 } 
 .Topbar img{
     width:50px;
+}
+.bottomhr{
+    width:80%;
+    border:solid 2px green;
+    margin-bottom: 50px;
 }
