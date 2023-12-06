@@ -1,0 +1,17 @@
+.education{
+    width:100%;
+    background-color: rgb(35, 35, 35);
+    font-family:tahoma;
+    color:rgb(89, 89, 89);
+    border-radius: 10px;
+}
+.edu{
+    padding:20px;
+    margin:10px;
+    border-radius: 10px;
+}
+.edu:hover{
+    color: rgb(0, 95, 95);
+    background-color: white;
+}
+
